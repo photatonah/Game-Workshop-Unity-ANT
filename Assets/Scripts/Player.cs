@@ -20,24 +20,24 @@ public class Player : MonoBehaviour
 
         //Debug.DrawLine(originPoint, originPoint + (direction * maxDistance), Color.green);
         Debug.DrawRay(originPoint, direction * maxDistance, Color.green);
+
         
 
         if (Input.GetMouseButtonDown(0))
-        {
-            RaycastHit hit;
-
-            if (Physics.Raycast(originPoint, direction, out hit, maxDistance, mask))
             {
-                Debug.Log("Hit: " + hit.collider.name);
-                
-                
-                IInteractable comp = hit.collider.GetComponent<IInteractable>();
-                if (comp != null)
+                RaycastHit hit;
+
+                if (Physics.Raycast(originPoint, direction, out hit, maxDistance, mask))
                 {
-                    comp.Interact();
+                    //Debug.Log("Hit: " + hit.collider.name);
+
+                    IInteractable comp = hit.collider.GetComponent<IInteractable>();
+                    if (comp != null)
+                    {
+                        comp.Interact();
+                    }
                 }
             }
-        }
 
         if (Input.GetKeyDown(KeyCode.I)) {
 
