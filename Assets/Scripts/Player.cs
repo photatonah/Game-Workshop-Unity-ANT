@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
     {
         Vector3 originPoint = Camera.main.transform.position;
         Vector3 direction = Camera.main.transform.forward;
-        float maxDistance = 5f;
+        float maxDistance = 3f;
 
         //Debug.DrawLine(originPoint, originPoint + (direction * maxDistance), Color.green);
         Debug.DrawRay(originPoint, direction * maxDistance, Color.green);
@@ -40,11 +40,8 @@ public class Player : MonoBehaviour
         }
 
         if (Input.GetKeyDown(KeyCode.I)) {
-            //GameManager.instance.OpenInventoryPanel();
-        }
 
-        if (Input.GetKeyDown(KeyCode.O)) {
-            //GameManager.instance.CloseInventoryPanel();
+            GameManager.instance.ToggleInventoryPanel();
         }
     }
 }

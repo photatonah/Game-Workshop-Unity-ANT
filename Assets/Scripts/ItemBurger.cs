@@ -1,11 +1,6 @@
 using UnityEngine;
 
-public class ItemBurger : MonoBehaviour, IInteractable
+public class ItemBurger : ItemBase
 {
-    // Implement the Interact method from the IInteractable interface
-    public void Interact()
-    {
-        // Code to handle the interaction with the burger item
-        Debug.Log("Burger item interacted with!");
-    }
+    
 }
