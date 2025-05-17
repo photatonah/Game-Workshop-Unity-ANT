@@ -1,5 +1,9 @@
 # Kitchen Madness (DPU ANT Workshop)
 
+## Screenshot
+
+https://raw.githubusercontent.com/photatonah/Game-Workshop-Unity-ANT/refs/heads/main/screenshot.jpg
+
 ## Overview
 
 Get ready for some fast-paced culinary chaos in **Kitchen Madness**! You're on a mission to collect 5 specific items scattered around a bustling kitchen within a frantic 60-second time limit. Can you navigate the culinary clutter, grab what you need, and beat the clock?
