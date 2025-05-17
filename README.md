@@ -2,7 +2,7 @@
 
 ## Screenshot
 
-https://raw.githubusercontent.com/photatonah/Game-Workshop-Unity-ANT/refs/heads/main/screenshot.jpg
+![alt text](https://github.com/photatonah/Game-Workshop-Unity-ANT/blob/main/screenshot.jpg?raw=true)
 
 ## Overview
 
