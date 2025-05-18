@@ -1,6 +1,6 @@
 # Kitchen Madness (DPU ANT Workshop)
 
-## Screenshot
+## Developed by Sukhum Suankwan
 
 ![alt text](https://github.com/photatonah/Game-Workshop-Unity-ANT/blob/main/screenshot.jpg?raw=true)
 
